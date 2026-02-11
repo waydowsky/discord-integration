@@ -1,0 +1,28 @@
+plugins:
+  discord_integration_enabled:
+    default: true
+    client: true
+
+  discord_bot_token:
+    default: ""
+    client: false
+
+  discord_guild_id:
+    default: ""
+    client: false
+
+  discord_sync_channels:
+    default: true
+    client: false
+
+  discord_sync_members:
+    default: true
+    client: false
+
+  discord_sync_messages:
+    default: true
+    client: false
+
+  discord_voice_widget_enabled:
+    default: true
+    client: true
