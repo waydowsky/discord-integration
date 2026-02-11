@@ -2,7 +2,7 @@
 # about: Integracja Discourse z Discordem – kanały → kategorie, wiadomości → wątki, aktywność głosowa
 # version: 1.0
 # authors: fremanhabel
-# url: https://github.com/twoja-nazwa/discourse-discord-integration
+# url: https://github.com/waydowsky/discord-integration
 
 enabled_site_setting :discord_integration_enabled
 
@@ -38,6 +38,4 @@ after_initialize do
     SiteSetting.discord_integration_enabled && SiteSetting.discord_voice_widget_enabled
   end
 
-  # Wstrzyknięcie JavaScript do wyświetlania widgetu
-  register_asset "javascripts/initializers/voice-avatars-widget.js", :server_side
 end
